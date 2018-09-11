@@ -1,0 +1,20 @@
+{
+  "name":"mostafa_kz/zarinpal_payment",
+  "authors": [
+    {
+      "name": "mostafa.karimzadeh",
+      "email": "behnam.kz.2015@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Payment\\" : "src/"
+    }
+  },
+  "autoload-dev": {
+    "files" : [
+      "payment/src/helper.php"
+    ]
+},
+  "require": {}
+}
