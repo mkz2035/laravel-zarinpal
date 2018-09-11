@@ -5,7 +5,7 @@ laravel-zarinpal is a package for Laravel 5+ provides helpers your simple paymen
 ### Features
 * Friendly Interface
 * Ease of use
-* Ease of set Merchant_ID and callback function
+* Ease of set Merchant_ID and callback url
 * Has form for register price and information of user
 ## Installation
 ### 1 - Dependency
