@@ -1,7 +1,7 @@
 # laravel-zarinpal
 ## written by mostafa karimzadeh
 #### Accountant in khu university
-laravel-zarinpal is a package for Laravel 5+ provides helpers you for simple payments for yourself
+laravel-zarinpal is a package for Laravel 5+ provides helpers your simple payments  
 ### Features
 * Friendly Interface
 * Ease of use
