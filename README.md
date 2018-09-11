@@ -101,7 +101,7 @@ update your **config/payment.php** for set **Merchant_ID** and **callback Url**
  
 return [
 
-    'Merchant_ID'=>'b16e0ac0-395b-11e8-94ae-005056a205be',
+    'Merchant_ID'=>'xxxx-xxx-xxxx-xxxx',
     'CallBack_Url'=>'http://localhost:8000/installment/payment/check',
 ];
 ```
