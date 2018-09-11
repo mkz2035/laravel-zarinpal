@@ -50,7 +50,7 @@ put this routes in **web.php**
 Route::get('/','PaymentController@payForm');
 Route::post('/installment/payment', 'PaymentController@payInstallment')->name('payment.redirectBank');
 //your callback Url
-Route::get(config('payment.CallBack_Url'),'PaymentController@checkPayment');
+Route::get('/installment/payment/check','PaymentController@checkPayment');
 ```
 ### 3 - Init Controllers
 run this command for create controller
