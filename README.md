@@ -46,10 +46,11 @@ run this command for init tables in your project
 ```
 ### 2 - Init Routes
 put this routes in **web.php**
+### Danger! your callback Url must be same of config/payment.php
 ```
 Route::get('/','PaymentController@payForm');
 Route::post('/installment/payment', 'PaymentController@payInstallment')->name('payment.redirectBank');
-//your callback Url
+//your callback Url(must be same of config/payment.php)
 Route::get('/installment/payment/check','PaymentController@checkPayment');
 ```
 ### 3 - Init Controllers
@@ -93,6 +94,16 @@ class PaymentController extends Controller
 ```
 ### 4 - Set your config
 update your **config/payment.php** for set **Merchant_ID** and **callback Url** 
+ 
+ **for example**
+ ```
+ <?php
+ 
+return [
 
+    'Merchant_ID'=>'b16e0ac0-395b-11e8-94ae-005056a205be',
+    'CallBack_Url'=>'http://localhost:8000/installment/payment/check',
+];
+```
 
 **good luck :)**
