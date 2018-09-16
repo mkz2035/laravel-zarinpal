@@ -13,7 +13,7 @@ The first step is using composer to install the package and automatically update
 composer require mostafa_kz/zarinpal_payment
 ```
 ### 2 - Provider
-You need to update your application configuration in order to register the package so it can be loaded by Laravel, just update your **config/app.php** file adding the following code at the end of your '**provide**
+You need to update your application configuration in order to register the package so it can be loaded by Laravel, just update your **config/app.php** file adding the following code at the end of your '**providers**
 ```
     'providers' => [
          Payment\PaymentServiceProvider::class,
